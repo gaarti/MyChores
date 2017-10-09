@@ -1,0 +1,1574 @@
+/*************************************************************************************
+===========================HOME PAGE MEDIA QUERIES===================================
+**************************************************************************************/
+
+@media (max-width: 1215px) {
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+	// banner bracket starts
+	.banner{
+		.banner-bottom-text{ 
+			.trusted-family, .verified-db{
+				font-size:22px;
+			}
+			.domestic{ font-size:17px; }
+		}
+
+		.trusted-verified{
+
+			.home-icon:before {		
+				font-size:50px;
+			}
+
+			.user-icon{
+				&:before {
+					font-size:50px;
+				}
+			}
+		}
+	}
+// banner bracket ends
+/*=====================================================================================
+MAIN's 3rd SECTION STYLING
+=====================================================================================*/
+
+.outer-work-div  {
+	.request{
+		width:75%;
+
+	}
+}
+}
+
+@media (max-width: 1199px) {
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+
+.banner{
+	.banner-text{
+		h2{
+			font-size: 30px;
+			line-height: 38px;
+			p{
+				font-size: 30px;
+			}
+		}
+	}
+
+// banner animation
+.rw-words{
+	display: inline-block;
+}
+.rw-words-1 span{
+	max-width: 0;
+	display: inline-block;
+		// opacity: 0;
+		overflow: hidden;
+		color: #fe7e0f;
+		animation: rotateWord 18s linear infinite 0s;
+	}
+	.rw-words-1 span:nth-child(2) {
+		animation-delay: 3s;
+		color: #fe7e0f;
+	}
+	.rw-words-1 span:nth-child(3) {
+		animation-delay: 6s; 
+		color: #fe7e0f; 
+	}
+	.rw-words-1 span:nth-child(4) {
+		animation-delay: 9s; 
+		color: #fe7e0f;
+	}
+	.rw-words-1 span:nth-child(5) {
+		animation-delay: 12s; 
+		color: #fe7e0f;
+	}
+	.rw-words-1 span:nth-child(6) {
+		animation-delay: 15s; 
+		color: #fe7e0f;
+	}
+
+	.rw-words-1 span:nth-child(7) {
+		animation-delay: 18s; 
+		color: #fe7e0f;
+	}
+	.rw-words-1 span:nth-child(8) {
+		animation-delay: 21s; 
+		color: #fe7e0f;
+	}
+	.rw-words-1 span:nth-child(9) {
+		animation-delay: 24s; 
+		color: #fe7e0f;
+	}
+	@keyframes rotateWord {
+		2% { opacity: 0; max-width: 0; transform: translateY(-30px); }
+		5% { opacity: 1; max-width: 200px; transform: translateY(5px);}
+		17% { opacity: 1; max-width: 200px; transform: translateY(5px); }
+		20% { opacity: 0; max-width: 0; transform: translateY(30px); }
+		
+		50% { opacity: 0; max-width: 0; }
+	}
+}
+/*=====================================================================================
+MAIN 5TH STYLING
+=====================================================================================*/
+.overview{
+	.ratings {
+		p {   
+			bottom: 45%;
+			right: 20%;
+			padding: 2px 0 2px 0;
+			.rate, i, .views{ font-size: 11px;}
+			
+		}
+	}
+}
+}
+
+
+
+@media (max-width: 1069px) {
+
+	.container { width:95%; }
+
+/*=====================================================================================
+hEADER STYLING
+=====================================================================================*/
+header{
+	h1{ width: 25%;
+		img { width:100%; }
+	}
+}
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+// banner bracket starts
+.banner{
+	.banner-text {
+		h2 {
+			// color: #fff;
+			font-size: 32px;
+			line-height: 40px;
+			p{
+				font-size: 32px;
+			}
+		}
+		p{ 
+			margin-bottom: 32px;
+			font-size:16px;
+		}
+
+		.book-now, .just-enquiry {
+			padding: 5px 22px;
+			font-size:16px
+		}
+	}
+	.banner-bottom-text{ 
+		.trusted-family, .verified-db{
+			font-size:18px;
+			line-height: 28px;
+		}
+		.domestic{ font-size:14px; }
+	}
+
+	.trusted-verified{
+		padding: 20px 0;
+		.home-icon:before {		
+			font-size:50px;
+		}
+
+		.user-icon{
+			&:before {
+				font-size:50px;
+			}
+		}
+	}
+}
+// banner bracket ends
+
+/*=====================================================================================
+MAIN's1ST SECTION STYLING
+=====================================================================================*/
+.outer-services-div{
+	.h3-heading{
+		font-size:30px;
+	}
+
+	.what-exactly-do {
+		.sub-heading {
+			font-size: 16px;
+		}
+		p:nth-of-type(2){
+			font-size:13px;
+		}
+	}
+
+	.check{
+		p{
+			padding: 0;
+			a{
+				font-size:13px;
+			}
+			img{ width:103px;}
+		}
+	}
+}
+
+/*=====================================================================================
+hAIN's 3rd SECTION STYLING
+=====================================================================================*/
+.video-section{
+	.h3-heading{ font-size:30px;}
+}
+.outer-work-div  {
+	.request{
+		width:70%;
+		h4{
+			font-size:16px;
+			line-height: 24px;
+		}
+
+		p{
+			font-size: 13px;
+			line-height: 21px;
+		}
+		
+	}
+	img{
+		width: 70px;
+		vertical-align: super;
+	}
+}
+
+
+/*=====================================================================================
+MAIN 5TH STYLING
+=====================================================================================*/
+.overview{
+	.ratings {
+		p {   
+			bottom: 46%;
+			right: 25%;
+			padding: 1px 0 1px 0;
+			.rate, i, .views{ font-size: 11px;}
+			
+		}
+	}
+}
+}
+
+@media (max-width: 979px) {
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+// .container{ width:85%;}
+	// banner bracket starts
+	.banner{
+		.banner-text {
+			h2 {
+				color: #fff;
+				font-size: 30px;
+				line-height: 38px;
+				p{
+					font-size: 30px;
+				}
+			}
+		}
+		.banner-bottom-text{ 
+			.trusted-family, .verified-db{
+				font-size:18px;
+				line-height: 28px;
+			}
+			.domestic{ font-size:14px; }
+		}
+
+		.trusted-verified{
+
+			.home-icon:before {		
+				font-size:50px;
+			}
+
+			.user-icon{
+				&:before {
+					font-size:50px;
+				}
+			}
+		}
+	}
+// banner bracket ends
+/*=====================================================================================
+MAIN's1ST SECTION STYLING
+=====================================================================================*/
+.outer-services-div {
+	.h3-heading{
+		font-size:25px;
+	}
+
+	.what-exactly-do {
+		.sub-heading {
+			font-size: 13px;
+		}
+		p:nth-of-type(2){
+			font-size:11px;
+		}
+	}
+
+	.check{
+		p{
+			padding: 0;
+			a{
+				font-size:13px;
+			}
+			img{ width:103px;}
+		}
+	}
+	.services-div{
+		td{
+			padding: 25px;;
+		}
+	}
+}
+/*=====================================================================================
+hAIN's 3rd SECTION STYLING
+=====================================================================================*/
+.video-section{
+	.video{
+		video{
+			height: 330px;;
+		}
+	}
+
+}
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores{
+	.top-heading{
+		// text-align:left;
+		.h3-heading{ 
+			font-size:30px;
+			line-height: 38px;
+		}
+		p{ 
+			font-size: 14px;
+			line-height: 22px;
+		}
+	}
+	.outer-col{
+		margin-bottom: 20px;
+		.commom-div-style{
+			width: 100%;
+			margin: auto;
+			background: #fafafa;
+			padding: 28px 14px 0;
+		}
+	}	
+}
+
+/*=====================================================================================
+MAIN 5TH STYLING
+=====================================================================================*/
+.overview{
+	.ratings {
+		p {   
+			bottom: 48%;
+			right: 21%;
+			padding: 0;
+			// .rate, i, .views{ font-size: 11px;}
+			
+		}
+	}
+	.h3-heading{
+		font-size:30px;
+		line-height: 26px;
+	}
+	.mychores-in {
+		h6{
+			font-size: 25px;
+
+		}
+		p{
+			.rate, i, .views{
+				font-size: 14px;
+			}
+			
+		}
+	}
+	.latest-reviews{
+		.latest{
+			.latestviews{font-size: 14px; }
+			p {
+				font-size: 14px;
+				line-height: 	22px;
+			}
+		}
+	}
+}
+
+/*=====================================================================================
+FOOTER STYLING
+=====================================================================================*/
+
+footer{
+	.bottom-footer {
+		h6{ font-size: 18px; }
+
+	}
+}
+
+}
+
+
+@media (max-width: 936px) {
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+	// banner bracket starts
+	.banner{
+		.banner-text {
+			h2 {
+				color: #fff;
+				font-size: 25px;
+				line-height: 33px;
+				p{ font-size: 25px;}
+			}
+			p{ font-size:15px;}
+		}
+		.banner-bottom-text{ 
+			margin-left: 50px;
+			.trusted-family, .verified-db{
+				font-size:15px;
+				line-height: 23px;
+			}
+			.domestic{ font-size:12px; }
+		}
+
+		.trusted-verified{
+
+			.home-icon:before {		
+				font-size:40px;
+			}
+
+			.user-icon{
+				&:before {
+					font-size:40px;
+				}
+			}
+		}
+	}
+// banner bracket ends
+
+/*=====================================================================================
+hAIN's 3rd SECTION STYLING
+=====================================================================================*/
+.outer-work-div  {
+	.request{
+		width:70%;
+		h4{
+			font-size:14px;
+			line-height: 20px;
+		}
+
+		p{
+			font-size: 11px;
+			line-height: 17px;
+		}
+		
+	}
+	img{
+		width: 60px;
+	}
+}
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores{
+	.outer-col{
+		// margin-bottom: 20px;
+		.commom-div-style{
+			max-height: 328px;
+			// width: 75%;
+			// margin: auto;
+			// background: #fafafa;
+			// padding-top: 25px;
+		}
+
+
+	}
+	
+}
+
+
+/*=====================================================================================
+MAIN 5TH STYLING
+=====================================================================================*/
+.overview{
+	.ratings {
+		// background-size: cover;
+		p {   
+			bottom: 48%;
+			right: 21%;
+			padding: 0;
+			// .rate, i, .views{ font-size: 11px;}
+			
+		}
+	}
+}
+
+
+footer{
+	.bottom-footer {
+		.form-inline{
+			button{
+				font-size: 10px;
+			}
+		}
+	}
+}
+}
+
+@media (max-width: 811px) {
+/*=====================================================================================
+hEADER STYLING
+=====================================================================================*/
+header{
+	nav{
+		.outer-li{ padding: 0 10px;}
+		.nav-links{
+			ul{
+				li{
+					a{ font-size:13px; }
+				}
+			}
+		}
+		.header-contact {
+			ul{
+				li{
+					a{ font-size:11px;}
+				}
+			}
+		}
+
+	}
+	// 	a{ font-size:11px;}
+	// }
+	
+}
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+	// banner bracket starts
+	.banner{
+		.banner-bottom-text{ 
+			.trusted-family, .verified-db{
+				font-size:13px;
+				line-height: 21px;
+			}
+			.domestic{ font-size:10px; }
+		}
+
+		.trusted-verified{
+
+			.home-icon:before {		
+				font-size:30px;
+			}
+
+			.user-icon{
+				&:before {
+					font-size:30px;
+				}
+			}
+		}
+	}
+// banner bracket ends
+
+/*=====================================================================================
+MAIN's 3rd SECTION STYLING
+=====================================================================================*/
+.outer-work-div  {
+	img{
+		width: 55px;
+	}
+}
+
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores{
+	.outer-col{
+		// margin-bottom: 20px;
+		.commom-div-style{
+			max-height: 328px;
+			// width: 75%;
+			// margin: auto;
+			// background: #fafafa;
+			// padding-top: 25px;
+		}
+
+
+	}
+	
+}
+
+}
+
+
+@media (min-width: 768px) {
+	/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores{
+	.outer-col{
+		.commom-div-style{
+			h5{
+				min-height: 65px;
+			}
+		}
+	}
+	
+}
+
+.services-div { 
+	td {		
+		&:hover{
+			transform: scale(1.1);
+			background: #e29c27;
+		}
+	}
+
+}
+
+}
+
+@media (max-width: 767px) {
+/*=====================================================================================
+hEADER STYLING
+=====================================================================================*/
+body{
+	header{
+		padding:12px 0;
+		h1{ 
+			width:33%;
+			display: inline-block;
+			float: none;
+		}
+		.humburger{
+			margin-right: 20px;
+			display: inline-block;
+			vertical-align: middle;
+			div{
+				width: 30px;
+				height: 2px;
+				background-color: #000;
+				margin: 8px 0;
+			}
+		}
+
+		.mobile-device-phone-icon{
+			float: right;
+			i{
+				color: transparent;
+				font-size: 32px;
+				-webkit-text-stroke-width: 1px;
+				-webkit-text-stroke-color: #3ecff5;
+			}
+		}
+
+
+	// mobile navigation
+	.humburger {
+		position: relative;
+		cursor: pointer;
+	}
+	
+	// .humburger:hover+nav {
+	// 	display: block;
+	// }
+	
+	// .responsive-menu:hover {
+	// 	display: block;
+	// }
+	
+	.responsive-menu {
+		width: 100%;	
+		display: none;
+		// background: #f4f4ff;
+		background:#fff;
+		position: absolute;
+		// top:89px;
+		top:67px;
+		left: 0;
+		text-align: left;
+		
+	}
+	
+	.responsive-menu>ul>li ul {
+		display: none;
+	}
+	
+	.responsive-menu {
+		// height: 180px;
+		ul{
+			// height: 100%;
+			// overflow: scroll;
+			.outer-li {
+				display: block;
+				padding: 5px 0 5px 50px;
+				width: 100%;
+				.parent-li:after{ background: transparent; }
+			}
+		}
+		.dropdown-menu-hamb>li>a {
+			display: block;
+			padding: 3px 0;
+			clear: both;
+			font-weight: 400;
+			line-height: 1.42857143;
+			color: #333;
+			white-space: nowrap;
+		}
+	}
+	
+
+
+	// .parent-li:after{ background-color:transparent;}
+	
+	.responsive-menu a:hover {
+		text-decoration: none;
+	}
+	
+	.dropdown-menu-hamb {
+		font-family: Roboto-Light;
+		list-style: none;
+	}
+	
+	.responsive-menu ul>li>ul {
+		padding-left: 15px;
+	}
+
+
+	.responsive-contact-menu{
+		top:67px;
+		ul>{
+			li>{
+				ul{
+					display: none;
+				}
+			}
+		}
+	}
+
+}
+}
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+
+div.banner{
+	height:400px;
+	padding-top: 67px;
+	.banner-text {
+		top:60%;
+		left: 30%;
+		// transform: translate(-50%, -85%);
+		h2 {
+			margin-bottom: 25px;
+			font-size: 22px;
+			line-height: 33px;
+			p{ font-size: 22px;}
+		}
+		.banner-info-text{ 
+			display: none;
+		}
+
+		.book-now, .just-enquiry {
+			padding: 6px 28px;
+			font-size: 16px;
+		}
+	}
+	.banner-bottom-text{ 
+		.trusted-family, .verified-db{
+			font-size:14px;
+			line-height: 26px;
+		}
+		.domestic{ font-size:14px; }
+	}
+	.trusted-verified {
+		// padding: 0;
+		// position: static;
+		padding: 12px 0;
+		li{
+			padding-left:15px;
+			// width:100%;
+			// padding: 10px 0 10px 20px;
+			// display: block;
+		}
+		// .user-icon{
+		// 	border-top: 1px solid #fff;
+		// 	border-left:0;
+		// }
+		.user-icon:before{ margin-right: 0;}
+	}
+
+
+	
+}
+/*=====================================================================================
+MAIN's1ST SECTION STYLING
+=====================================================================================*/
+section.white-section, section.grey-section {
+	padding: 20px 0 25px;
+}
+.outer-services-div{
+
+	.services-div{
+		width:100%;
+		td{
+			padding: 55px;;
+		}
+	}
+	.mobile-h3-service-heading{
+		padding-bottom: 0px;
+		border-bottom: 2px dashed #a5a5a5;
+		margin-bottom:15px;
+		float: left;
+		font-size: 18px
+	}	
+}
+/*=====================================================================================
+MAIN's 3rd SECTION STYLING
+=====================================================================================*/
+.video-section{
+	.video{ max-width:100%;}
+	.video-h3-heading{
+		font-size:18px;
+
+	}
+
+	.mobile-outer-div{
+		width:85%;
+		margin: auto;
+		.down-arrow{
+			padding: 5px 0 10px 3px;
+		}
+	}
+	.outer-work-div {
+		img{
+			width:78px;
+		}
+		.request{	
+			h4{
+				font-size:17px;
+				line-height: 25px;
+			}
+			p{
+				font-size:14px;
+			}
+		}
+	}
+
+
+	.mobile-work-div{
+		margin-bottom:30px;
+	}
+	.video-modal{
+		width: 85%;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Roboto-Medium;
+		color:  #fe7e0f;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+		.play-btn{
+			padding: 2px 7px 2px 9px;
+			border-radius: 100%;
+			display: inline-block;		
+			margin-right: 8px;
+			background: #fe7e0f;
+			i{
+				color: #fff;	
+			}
+
+		}
+	}
+
+	
+}
+
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores{
+	.top-heading{
+		text-align:left;
+		.h3-heading{ 
+			// float: left;
+			padding-bottom: 	0;
+			margin-bottom: 10px;
+			font-size:18px;
+			line-height: 26px;
+		}
+		p{ 
+			width:100%;
+			margin: 0;
+		}
+	}
+
+	.outer-col{		
+		.commom-div-style{
+			// width: 80%;
+			h5{
+				font-size:22px;
+				line-height: 30px;
+			}
+			p{
+				display: none;
+				font-size:15px;
+			}
+			img{ width:100px; }
+		}
+	}
+}
+
+.overview{
+	.h3-heading{
+		margin-left: 15px;
+		font-size:18px;
+		line-height:38px;
+	}
+	.container{
+		width:100%;
+	}
+	.latest-reviews {
+		.mychores-in{
+			padding: 15px 30px;
+			margin: 15px -15px 0 -15px;
+			left:0;
+		}
+		.latest{ 
+			width:100%;
+			padding-left: 15px;
+		}
+	}
+
+	.mobile-map{
+		text-align: center;
+		.responsive-mob-img{
+			position: relative;
+			p{
+				position: absolute;
+				bottom: 57px;
+				left: 202px;
+				background:#4085f3;
+				color:#fff;
+				font-size:12px;
+				i{ color: #fff;}
+			}
+
+		}		
+	}
+}
+
+/*=====================================================================================
+MAIN's 6th STYLING
+=====================================================================================*/
+.right-made{
+	.hire-right-maid{
+		h6{
+			font-size:22px;
+		}
+		span{
+			font-size:22px;
+		}
+		.just-enquiry {
+			padding: 5px 15px;
+		}
+		.book-now {
+			padding: 5px 20px;
+		}
+	}
+}
+
+footer{
+	.responsive-footer{
+		background: #303030;
+
+	}
+	.accordion{
+		display:none;		
+	}
+	.accordion:target{display:block;}
+	#accordion {
+		ul {
+			li {
+				border-bottom: 1px solid #fff;
+				a{
+					padding:10px;
+					display:block;
+					text-decoration:none;						
+					font-family: Roboto-Light;
+					color:  #fff;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 40px;
+					text-align: left;
+					transition: 3s esas-in;
+				}
+			}
+		}
+		.accordion{
+			padding:4px;
+			color: #fff;
+		}
+
+	}
+	.copyright-terms-conditions{
+		padding:20px 0 35px;
+		border-top: 0	;
+		margin-top: 35px;
+		ul{
+			float: none;
+			li{
+				padding: 0 0 0 16px;
+				margin-right: 10px;
+				border-bottom:0;
+				display: inline-block;
+				a{
+					font-family: Roboto-Light;
+					color:  #fff;
+					font-size: 12px;
+
+				}
+			}
+			.border-left{
+				border-left:1px solid #cfcfcf;
+			}
+		}
+		.copyright{
+			float: none;
+			p{
+				font-family: Roboto-Light;
+				color:  #fff;
+				font-size: 12px;
+			}
+		}
+	}
+
+
+}
+
+
+
+.copyright-terms-conditions{
+	padding:20px 0 44px;
+	text-align:center;
+	ul{
+		margin-bottom: 20px;
+		float: none;
+		li{
+			padding: 0 0 0 10px;
+			margin-right: 5px;
+			display: inline-block;
+
+		}
+		.border-left{
+			border-left:0;
+		}
+	}
+	.copyright{
+		float: none;
+		
+	}
+}
+}
+
+
+@media (max-width: 651px) {
+
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+
+div.banner{
+	// padding-top: 87px;
+	.banner-bottom-text{
+		margin-left: 35px;
+		.verified-db{
+			font-size: 14px;
+		}
+	}
+	.banner-text {
+		width:90%;
+		// top: 45%;
+		left: 50%;
+		h2 {
+			margin-bottom: 20px;
+			line-height: 23px;
+		}
+		
+	}
+
+	.trusted-verified {
+		// padding: 0;
+		// position: static;
+		li{
+			padding-left:15px;
+			// width:100%;
+			// padding: 10px 0 10px 20px;
+			// display: block;
+		}
+		// .user-icon{
+		// 	border-top: 1px solid #fff;
+		// 	border-left:0;
+		// }
+		.user-icon{
+			&:before {
+				margin-right: 0;
+				font-size:25px;
+			}
+		}
+		// .home-icon:before{ margin-right:0;}
+	}
+
+}
+/*=====================================================================================
+MAIN's 2nd SECTION STYLING
+=====================================================================================*/
+.outer-services-div{
+
+	.services-div{
+		td{
+			padding: 40px;
+		}
+	}
+}
+/*=====================================================================================
+MAIN's 6th STYLING
+=====================================================================================*/
+.overview{
+	.mobile-map{
+		.responsive-mob-img{		
+			p{			
+				left: 180px;				
+			}
+		}		
+	}
+}
+
+
+
+}
+
+
+@media (max-width: 633px) {
+
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+
+div.banner{
+	// padding-top: 87px;
+	.banner-text {
+		// top:50%;
+		h2 {
+			margin-bottom: 20px;
+			line-height: 23px;
+		}		
+		.book-now, .just-enquiry {
+			padding: 5px 20px;
+			font-size:12px
+		}
+	}
+
+	.banner-bottom-text{
+		.verified-db, .trusted-family{ font-size:13px;}
+	}
+
+}
+/*=====================================================================================
+MAIN's 2ND SECTION STYLING
+=====================================================================================*/
+.video-section {
+	.outer-work-div {
+		// width:90%;
+		img{
+			width:95px;
+		}
+	}
+}
+
+}
+
+@media (max-width: 461px) {
+/*=====================================================================================
+hEADER STYLING
+=====================================================================================*/
+body{
+	header{
+		padding:5px 0;
+		.responsive-menu, .responsive-contact-menu{ top: 46px;}
+		h1{
+			width:40%;
+			vertical-align: sub;
+		}
+		.humburger {
+			margin-top: 5px;
+			// vertical-align: bottom-text;
+			/* margin: 8px 0 0 0; */
+
+			div {
+				width: 20px;
+				margin: 4px 0;
+			}
+		}
+		.mobile-device-phone-icon {
+			i{ font-size:25px;}
+		}
+	}
+}
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+
+div.banner{
+	height:315px;
+	padding-top: 40px;
+	.banner-text {
+		top:60%;
+		h2 {
+			// margin-bottom: 20px;
+			font-size: 17px;
+			line-height: 20px;
+			p{	
+				margin-bottom: 0;
+				font-size: 17px;
+			}
+		}
+		
+		.book-now, .just-enquiry {
+			// padding: 5px 25px;
+			// font-size:16px
+		}
+	}
+
+	.trusted-verified{ 
+		padding:3px 0;
+		li{
+			padding-left:12px;
+		}
+		.home-icon:before{ margin-right: 19px;}
+	}
+	.banner-bottom-text{
+		.verified-db, .trusted-family{
+			line-height: 18px;
+			font-size: 12px;
+
+		}
+	}
+
+}
+/*=====================================================================================
+MAIN's1ST SECTION STYLING
+=====================================================================================*/
+.outer-services-div{
+
+	.services-div{
+		td{
+			padding: 30px;
+		}
+	}
+}
+
+/*=====================================================================================
+MAIN's 2ND SECTION STYLING
+=====================================================================================*/
+.video-section {
+	.outer-work-div {
+		// width:90%;
+		img{
+			width: 65px;
+			vertical-align: top;
+		}
+		.request{
+			h4{ font-size:15px;
+				line-height: 23px;
+			}
+			p{ font-size: 12px;}
+		}
+	}
+}
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores {
+	.outer-col {
+		padding:5px;
+		margin-bottom: 0;
+		.commom-div-style {
+			min-height: 212px;
+			padding-top:10px;
+
+			h5{
+				font-size: 18px;
+				line-height: 26px;
+			}
+			img{
+				width: 91px;
+				min-height: 91px;
+			}
+		}
+	}
+}
+
+
+
+/*=====================================================================================
+MAIN's 6th STYLING
+=====================================================================================*/
+.overview{
+	.h3-heading{ 
+		padding-bottom: 0;
+		margin-bottom: 10px;
+	}
+	.mobile-map{
+		.responsive-mob-img{
+			p{
+				left: 66px;
+			}
+		}		
+	}
+}
+
+
+
+
+}
+
+@media (max-width: 410px) {
+
+/*=====================================================================================
+BANNER STYLING
+=====================================================================================*/
+body{
+	header{ 
+		padding: 5px 0 0px 0;
+		.mobile-device-phone-icon i{
+			font-size: 25px;
+		}
+		.responsive-menu, .responsive-contact-menu{ top:41px;}
+	}
+}
+div.banner{
+	height:260px;
+	.banner-text{
+		top:55%;
+		left: 48%;
+		.book-now{
+			padding: 3px 20px;
+			font-size: 10px;
+		}
+		.just-enquiry{ 
+			padding: 2px 15px;
+			font-size: 10px;
+			border:2px solid;
+		}
+		h2{ 
+			font-size:15px;
+			p{
+				font-size:15px;
+			}
+		}
+	}
+	.banner-bottom-text {
+		.trusted-family, .verified-db{
+			font-size:11px;
+			line-height: 18px;
+		}
+		.domestic{ font-size:11px; }
+	}
+	.trusted-verified{
+		.user-icon:before, .home-icon:before{
+			font-size: 20px;
+
+		}
+		.home-icon:before{ margin-right: 22px;}
+	}
+
+}
+/*=====================================================================================
+MAIN's1ST SECTION STYLING
+=====================================================================================*/
+.outer-services-div{
+
+	.services-div{
+		td{
+			// padding: 20px;
+			width: 40%;
+			// padding: 8px 22px 4px 22px;
+			padding: 8px 15px;
+			img{
+				width: 35px;
+				height: 35px;
+			}
+		}
+	}
+}
+
+/*=====================================================================================
+MAIN's 6th STYLING
+=====================================================================================*/
+.right-made{
+	.hire-right-maid{
+		h6{
+			font-size:18px;
+		}
+		span{
+			font-size:22px;
+		}
+		.just-enquiry {
+			padding: 4px 10px;
+			font-size:15px;
+		}
+		.book-now {
+			padding: 5px 10px;
+			font-size:15px;
+		}
+	}
+}
+.overview {
+	.mobile-map {
+		.responsive-mob-img {
+			p {
+				left: 40px;
+			}
+		}
+	}
+}
+
+}
+
+@media (max-width: 320px) {
+/*=====================================================================================
+hEADER STYLING
+=====================================================================================*/
+
+header{
+	.responsive-contact-menu{
+		width: 60%;
+	}
+}
+
+div.banner {
+	.banner-bottom-text{
+		.trusted-family,.verified-db{
+			// font-size: 13px;
+			// line-height: 21px;
+		}
+		.domestic{ font-size: 10px; }
+	}
+}
+
+/*=====================================================================================
+MAIN's 2ND SECTION STYLING
+=====================================================================================*/
+.video-section {
+	.outer-work-div {
+		// width:90%;
+		img{
+			width:52.9px;
+			vertical-align: top;
+		}
+		.request{
+			h4{ font-size:13px;
+				line-height: 21px;
+			}
+			p{ font-size: 10px;}
+		}
+	}
+}
+
+/*=====================================================================================
+MAIN's 4TH SECTION STYLING
+=====================================================================================*/
+.why-mychores {
+	.outer-col {
+		padding:5px;
+		margin-bottom: 0;
+		.commom-div-style {
+			min-height: 175px;
+			padding-top:10px;
+
+			h5{
+				font-size: 13px;
+				line-height: 21px;
+			}
+			img{
+				width: 75px;
+				min-height: 70px;
+			}
+		}
+	}
+}
+
+
+	/*=====================================================================================
+MAIN's 6th STYLING
+=====================================================================================*/
+.overview{
+	.mobile-map{
+		.responsive-mob-img{
+			p{
+				left: 32px;
+			}
+			img{ width:100%;}
+		}		
+	}
+}
+
+.outer-services-div {
+	.services-div {
+		h4{
+			font-size: 12px;
+			line-height: 20px;
+		}
+	}
+}
+
+footer{
+	.copyright-terms-conditions{
+		ul{
+
+			li{
+				padding: 0 0 0 7px;
+				margin-right: 5px;
+				display: inline-block;
+
+			}
+
+		}
+
+	}
+}
+
+
+
+}
+
+
+@media (max-width: 732px) and (orientation: landscape) { 
+	.responsive-menu{
+		height: 180px;
+		ul{
+			height: 100%;
+			overflow: scroll;
+		}
+	}
+}
